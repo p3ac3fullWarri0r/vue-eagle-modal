@@ -5,10 +5,12 @@
 [Demos](https://eagle-design.ir/vue-eagle-modal/demo.html)
 <br>
 [Design and Developed by eagle design](https://eagle-design.ir)
+<br>
+[Fork developing by **bees4ever**](https://github.com/bees4ever/)
 
 ## Project setup
 ```
-npm install vue-eagle-modal
+ NPM not working yet
 ```
 Register Plugin
 ```
@@ -20,7 +22,8 @@ Vue.use(EagleModal);
 ```
 let m = this.$modals.add({
     title: 'Title',
-    theme: 'osx', // || mojave
+	subtitle: 'Some description',
+    theme: 'osx', // || mojave,
     items: [
     	{
     		label: 'Username',

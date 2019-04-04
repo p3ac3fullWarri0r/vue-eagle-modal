@@ -3,6 +3,7 @@
 
         <header ref='header' class="default">
             <div class="title">{{ title }}</div>
+			<span class="subtitle">{{ subtitle }}</span>
             <div class="btns">
                 <div class="btn-close" @click='$emit("close")' title="Close"><i class="flaticon-add"></i></div>
                 <div></div>
@@ -86,6 +87,9 @@
 				if (this.load && this.data.loadTitle)
 					return this.data.loadTitle;
 				return this.data.title;
+			},
+			subtitle(){
+				return this.data.subtitle
 			},
 			data(){
 				return this.item.data;
@@ -199,3 +203,8 @@
 	}
 </script>
 
+<style lang="scss" scoped>
+.subtitle{
+	font-size: 12px;
+}
+</style>
