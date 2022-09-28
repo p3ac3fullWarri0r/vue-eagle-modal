@@ -1,6 +1,6 @@
 <template><div></div></template>
 <script>
-	import Item from '../Item';
+	import Item from '../Item.js';
 	export default{
 		props: ['value'],
 		data(){

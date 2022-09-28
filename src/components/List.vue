@@ -14,9 +14,9 @@
 </template>
 <script>
 	import '../assets/style.scss';
-	import Item from '../Item';
-	import Modal from './Modal';
-	import Alert from './Alert';
+	import Item from '../Item.js';
+	import Modal from './Modal.vue';
+	import Alert from './Alert.vue';
 	import Types from './types';
 	import Vue from 'vue';
 

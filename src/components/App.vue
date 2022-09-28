@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import footer from './Footer';
+import footer from './Footer.vue';
 import scrollbar from 'overlayscrollbars';
-import {eModal} from '../Plugin'
+import {eModal} from '../Plugin.js'
 
 export default {
   components: {eModal},
