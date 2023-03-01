@@ -69,7 +69,7 @@
     </div>
 </template>
 <script>
-	import FormBuilder from './FormBuilder';
+	import FormBuilder from './FormBuilder.vue';
 	import Vue from 'vue';
 	 
 	export default{
