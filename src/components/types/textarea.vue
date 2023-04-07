@@ -2,7 +2,7 @@
     <div class="item-row">
         <label v-if="label" class="col label" :for="id">{{ label }}</label>
         <div class="col-data">
-            <textarea class="form-control" :id="id" v-bind="attr" v-model="val"></textarea>
+            <textarea class="form-control" :placeholder="placeholder" :id="id" v-bind="attr" v-model="val"></textarea>
         </div>
     </div>
 </template>
